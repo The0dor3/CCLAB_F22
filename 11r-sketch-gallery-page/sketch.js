@@ -3,9 +3,8 @@ let splash = [];
 let totalNum = 0;
 
 function setup() {
-  let canvas = createCanvas(500, 400);
+  let canvas = createCanvas(600, 600);
   canvas.parent("canvasContainer");
-  createCanvas(600, 600);
   background(0);
   strokeWeight(2);
   for (let i = 0; i < splash.length; i++) {

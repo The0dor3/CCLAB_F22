@@ -1,8 +1,36 @@
-html, body {
-  margin: 0;
+html,
+body {
+  background-color: #808080;
+  margin: 100;
   padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 canvas {
   display: block;
+}
+
+#canvasContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+h3 {
+  text-align: right;
+
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  background-color: yellow;
+  position: absolute;
+  top: 95%;
 }
