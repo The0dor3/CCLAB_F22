@@ -1,0 +1,143 @@
+body {
+    background-color: skyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+}
+
+h4 {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.start-container {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.main-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: whitesmoke;
+    padding: 100px;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.btn-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn-pinyin {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, +20%);
+}
+
+.btn-tleft {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.hiddenlist {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+#centralsec {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#p5 {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#htp {
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+#disc {
+    width: 200px;
+    height: 320px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+ul {
+    display: inline-block;
+}
+
+.dropdown {
+    float: none;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    position: absolute;
+    left: 49%;
+    top: 30%;
+    /* Important for vertical align on mobile phones */
+    margin-right: 0;
+    /* Important for vertical align on mobile phones */
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 900px;
+    left: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
